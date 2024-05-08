@@ -1,0 +1,76 @@
+* {
+	font-family: "Exo 2", sans-serif;
+}
+
+#intro-homepage {
+	height: 50vh;
+	background-image: url("./Immagini_sfondo/immagine-sfondo-home.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.text-shadow {
+	text-shadow: 1px 1px 10px #000000;
+}
+
+.color_nav {
+	color: #ECF4D6
+}
+
+.color_nav_button {
+	background-color: #ECF4D6
+}
+
+.color_nav:hover {
+	color: #9AD0C2
+}
+
+.color_nav:focus {
+	color: #9AD0C2
+}
+
+.nav_margin {
+	margin-right: 10px;
+}
+
+.hotel,
+.b-and-b,
+.casa {
+	display: block;
+}
+
+.cont-mappa {
+	padding-left: 5%;
+	padding-top: 10%;
+	padding-right: 5%;
+}
+
+/*.immagini-gita{
+  padding:20%;
+}*/
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.megaDiv {
+	border-style: groove;
+	background-color: #ECF4D6;
+}
+
+@media only screen and (min-width: 992px) {
+	#traduttore {
+		float: right;
+	}
+}
